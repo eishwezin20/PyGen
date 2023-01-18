@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Py Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="spinner.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    	<div class="panel">
+    		<h2 class="text-center">Generate Python Codes</h2>
+    		
+    			<p id="introText" class="text-center">Enter the command to generate python code</p>
+    			
+    			<form>
+    				<div id="weightInput">
+    					<p>What code do you want to generate?<br>( example: Python function to compute volume of a sphere )</p>
+    		     		<input placeholder="Type command Here" id="weight" type="text" name="a" />
+    				</div>
+    				
+    		     <button type="button" class="btn" onclick="overwrite()">GENERATE</button>
+				 
+    		</form>
+    		<div id="results" class="text-center">Generated Python Code will appear here</div>
+    	</div>
+    </div>
+	<script src="main.js"></script>
+	<div class="spinner"></div>
+</body>
+</html>
